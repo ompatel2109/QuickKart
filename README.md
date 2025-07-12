@@ -26,11 +26,24 @@
 - **Payments**: PayPal
 - **Cloud**: Vercel (Frontend), Render/Host for Backend
 
-## 🧑‍💻 How to Run Locally
-
 ```bash
+## 🧑‍💻 How to Run Locally
+# Clone the repository
 git clone https://github.com/ompatel2109/QuickKart.git
-cd QuickKart
+cd <your-repo-name>
+
+# Install frontend dependencies
+cd frontend
 npm install
+
+# Install backend dependencies
+cd ../backend
+npm install
+
+# Run backend server (in one terminal)
+npm start
+
+# Run frontend (in another terminal)
+cd ../frontend
 npm start
 
