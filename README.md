@@ -29,8 +29,8 @@
 ## 🧑‍💻 How to Run Locally
 
 ```bash
-git clone https://github.com/yourusername/quickkart.git
-cd quickkart
+git clone https://github.com/ompatel2109/QuickKart.git
+cd QuickKart
 npm install
 npm start
 
