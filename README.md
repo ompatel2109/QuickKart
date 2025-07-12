@@ -26,6 +26,37 @@
 - **Payments**: PayPal
 - **Cloud**: Vercel (Frontend), Render/Host for Backend
 
+## 📁 Project Structure
+QuickKart/
+├── backend/
+│   ├── config/              # Database and environment config
+│   ├── data/                # Dummy data and seeder scripts
+│   ├── middleware/          # Auth, error, and other custom middleware
+│   ├── models/              # Mongoose schemas (User, Product, Order)
+│   ├── routes/              # API route handlers
+│   ├── node_modules/        # Backend dependencies
+│   ├── .env                 # Backend environment variables
+│   ├── package.json         # Backend dependencies and scripts
+│   ├── server.js            # Entry point of the Express server
+│   ├── seeder.js            # Script to seed the database
+│   └── vercel.json          # Backend Vercel deployment config
+│
+├── frontend/
+│   ├── public/              # Static files and assets
+│   ├── src/                 # React components, pages, and routes
+│   ├── node_modules/        # Frontend dependencies
+│   ├── .env                 # Frontend environment variables
+│   ├── .gitignore           # Files to ignore in version control
+│   ├── tailwind.config.js   # Tailwind CSS configuration
+│   ├── vite.config.js       # Vite configuration
+│   ├── package.json         # Frontend dependencies and scripts
+│   ├── index.html           # HTML template
+│   ├── README.md            # Project documentation
+│   └── vercel.json          # Frontend Vercel deployment config
+│
+└── .gitignore               # Global ignore file
+
+
 ```bash
 ## 🧑‍💻 How to Run Locally
 # Clone the repository
