@@ -26,6 +26,7 @@
 - **Payments**: PayPal
 - **Cloud**: Vercel (Frontend), Render/Host for Backend
 
+```bash
 ## 📁 Project Structure
 QuickKart/
 ├── backend/
