@@ -30,7 +30,7 @@
 ## 🧑‍💻 How to Run Locally
 # Clone the repository
 git clone https://github.com/ompatel2109/QuickKart.git
-cd <your-repo-name>
+cd QuickKart
 
 # Install frontend dependencies
 cd frontend
